@@ -1,0 +1,46 @@
+.argos_nav{
+  position: fixed;
+  top:58px;
+  margin: 0%;
+  background: #cccccc;
+  width: 200px;
+  height: 100vh;
+  transform: all 0.3s ease;
+
+}
+.argos_nav ul li{
+  display:block;
+  padding-top:15px;
+  color: blue;
+
+}
+.argos_nav ul li Link:before{
+  content: "";
+  position: absolute;
+  background: black;
+  top:0;
+  left:0;
+  width:3px;
+  background: red;
+  display: none;
+
+}
+.argos_nav .argos_menu_icon{
+  padding-left: 20px;
+  display: inline-block;
+}
+.argos_nav .argos_menu_title{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+.argos_nav ul li Link:hover{
+  background: #fff;
+}
+.argos_nav .argos_humburger {
+  width: 31px;
+  /* height: 58%; */
+  background: Red;
+  padding: 7px 5px;
+  cursor: pointer;
+}

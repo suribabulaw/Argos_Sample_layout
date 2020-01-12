@@ -1,0 +1,9 @@
+.Argos_main_container{
+    /* top:100px; */
+    position: fixed;
+    left: 220px;
+    background: red;
+    top: 58px;
+    right: 42px;
+    height: 85vh;
+}

@@ -1,0 +1,46 @@
+.argos_header {
+  background-color: #605e60;
+  height: 50px;
+  margin: 0px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0,1);
+}
+.argos_header .ms_logo_block{
+  border-right: 3px solid#e6e6e6;
+  height: 45px ;
+}
+.argos_header .ms_logo{
+  border-right-width: thin;
+  padding-left: 20px;
+  /* border-right-style: 2px solid  #f0f0ee ; */
+}
+.argos_header ul{
+  display: flex;
+  padding-right: 100px;
+}
+.argos_header ul li{
+  display: block;
+  margin: 0 25px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+
+  text-align: center;
+  border: 2px solid #f0f0ee;
+  border-radius: 50%;
+  color: #f0f0ee;
+}
+.argos_header ul li i {
+   color: #ffffff;
+}
+.argos_header ul li i:hover{
+  color: #e6e6e6;
+}
+.argos_header .argos_header_select {
+     padding-left: 200px;
+}
